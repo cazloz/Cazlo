@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.video.BooLigaFPL"
+	name="BooLiga FPL TV"
+	version="1.0.2"
+	provider-name="Cazlo">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">A Selection of FPL Tips and Reviews channels, Follow us on twitter @BooLigaFPL</summary>
+    <description lang="en">A Collection of Fantasy Premier League (FPL) Youtube channels and playlists selected by FPL community BooLiga</description>
+    <platform>all</platform>
+	<repository>Cazlo Repository</repository>
+	<twitter>@BooLigaFPL</twitter>
+  </extension>
+</addon>
+
+<addon id="plugin.video.deephousetv"
+	name="Deep House TV"
+	version="1.0.3"
+	provider-name="Cazlo">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Deep House Channels, Playlists and Live Sets from YouTube</summary>
+    <description lang="en">The Best Deep House Addon for Kodi</description>
+    <platform>all</platform>
+	<repository>Cazlo Repository</repository>
+	<website>cazlo.com/repo</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.epltv"
+	name="Premier League TV"
+	version="1.0.3"
+	provider-name="Cazlo">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Premier League teams channels, reviews, press conferences, insiders, punditry.. Everything EPL  </summary>
+    <description lang="en">The most complete premier league addon for Kodi, featuring all premier league teams official channels and fan pages plus all reviews, highlights, spotlights, insiders and news..</description>
+    <platform>all</platform>
+	<repository>Cazlo Repository</repository>
+	<website>cazlo.com/repo</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.football.today" name="Football Today" version="3.0.5" provider-name="lambda,jsergio">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.simplejson" optional="true"/>
+		<import addon="script.module.parsedom" optional="true"/>
+		<import addon="plugin.video.youtube" optional="true"/>
+		<import addon="script.module.urlresolver" version="3.0.22"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Football on demand</summary>
+		<description lang="en">Latest football matches and highlights</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+		<platform>all</platform>
+		<repository>Cazlo Repository</repository>
+	</extension>
+</addon>
+
+<addon id="plugin.video.footballreplays" name="Football Replays" version="1.4.6" provider-name="catchup4kodi">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.urlresolver" version="0.0.1"/>
+    <import addon="script.module.beautifulsoup4" version="0.0.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Football Replays</summary>
+    <description lang="en">Football Replays</description>
+    <disclaimer lang="en">Watch football replays from around the globe</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.ultraiptv"
+       name="Ultra IPTV"
+       version="1.0.0"
+       provider-name="Cazlo">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.video.F4mProxy" version="2.5.7" />
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <license>GPL 2.0</license>
+        <summary lang="en">Ultra IPTV</summary>
+        <description lang="en">Access Daily IPTV lists </description>
+		<platform>all</platform>
+		<repository>Cazlo Repository</repository>
+    </extension>
+</addon>
+
+    <addon id="repository.cazlo" name="Cazlo Repository" version="1.0.3" provider-name="Cazlo">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="Cazlo Repository">
+            <info compressed="false">https://cazlo.com/kodi/_repo/addons.xml</info>
+            <checksum>https://cazlo.com/kodi/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://cazlo.com/kodi/_repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Cazlo Kodi Repository</summary>
+            <description>This repository contains some of the highest quality addons for Kodi. http://cazlo.com/repo </description>
+            <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="script.module.urlresolver" name="URLResolver" version="4.0.06" provider-name="Eldorado, tknorris, jsergio">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="plugin.video.youtube" optional="true" />
+		<import addon="script.module.python.twitch" optional="true" />
+		<import addon="script.module.cryptopy" version="1.2.6" optional="true" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.python.pluginsource" library="lib/default.py" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
+		<description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
+        <source>https://github.com/jsergio123/script.module.urlresolver</source>
+	</extension>
+</addon>
+
+<addon id="script.video.F4mProxy" name="F4mProxy" version="2.8.7" provider-name="Shani">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.requests"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib"/>
+		<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Proxy for f4m</summary>
+		<description lang="en">Use this addon to play F4m v1 and v2 streams</description>
+	</extension>
+</addon>
+</addons>
