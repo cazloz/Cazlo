@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 <addon id="plugin.video.BooLigaFPL"
 	name="BooLiga FPL TV"
@@ -122,14 +122,14 @@
     </extension>
 </addon>
 
-    <addon id="repository.cazlo" name="Cazlo Repository" version="1.0.3" provider-name="Cazlo">
+    <addon id="repository.cazlo" name="Cazlo Repository" version="2.0.0" provider-name="Cazlo">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
         <extension point="xbmc.addon.repository" name="Cazlo Repository">
-            <info compressed="false">https://cazlo.com/kodi/_repo/addons.xml</info>
-            <checksum>https://cazlo.com/kodi/_repo/addons.xml.md5</checksum>
-            <datadir zip="true">https://cazlo.com/kodi/_repo/</datadir>
+            <info compressed="false">https://raw.githubusercontent.com/cazloz/cazlo-repo/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/cazloz/cazlo-repo/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://github.com/cazloz/cazlo-repo/raw/master/zips</datadir>
             <hashes>false</hashes>
         </extension>
         <extension point="xbmc.addon.metadata">
