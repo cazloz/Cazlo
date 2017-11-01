@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.epltv"
+	name="Premier League TV"
+	version="1.0.3"
+	provider-name="Cazlo">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Premier League teams channels, reviews, press conferences, insiders, punditry.. Everything EPL  </summary>
+    <description lang="en">The most complete premier league addon for Kodi, featuring all premier league teams official channels and fan pages plus all reviews, highlights, spotlights, insiders and news..</description>
+    <platform>all</platform>
+	<repository>Cazlo Repository</repository>
+	<website>cazlo.com/repo</website>
+  </extension>
+</addon>
