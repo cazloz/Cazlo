@@ -2,7 +2,7 @@
 <addons>
 <addon id="plugin.video.BooLigaFPL"
 	name="BooLiga FPL TV"
-	version="1.0.2"
+	version="1.0.3"
 	provider-name="Cazlo">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -23,7 +23,7 @@
 
 <addon id="plugin.video.deephousetv"
 	name="Deep House TV"
-	version="1.0.3"
+	version="1.0.4"
 	provider-name="Cazlo">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -44,7 +44,7 @@
 
 <addon id="plugin.video.epltv"
 	name="Premier League TV"
-	version="1.0.3"
+	version="1.0.4"
 	provider-name="Cazlo">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
